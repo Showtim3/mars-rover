@@ -1,4 +1,5 @@
 function fun(){
-   console.log(this);
+   console.log(this); //gloablObject in node.js and window on browser
+   //this is execution context
 }
-fun();
+fun(); //calling function fun
